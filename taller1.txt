@@ -1,0 +1,28 @@
+nombre=input("¿Cuál es su nombre? ")
+clave_departamento=input("Ingrese su clave de departamento entre 1,2 ó 3: ")
+antiguedad=input( "Ingrese en años su antiguedad en la empresa: ")
+if clave_departamento == "1":
+    if antiguedad == "1":
+        print(nombre + " tiene 6 días de vacaciones")
+    elif "2" <= antiguedad <= "6":
+        print(nombre + " tiene 14 días de vacaciones")
+    elif antiguedad >= "7":
+        print(nombre + " tiene 20 días de vacaciones")
+elif clave_departamento == "2":
+    if antiguedad == "1":
+        print(nombre + " tiene 7 días de vacaciones")
+    elif "2" <= antiguedad <= "6":
+        print(nombre + " tiene 15 días de vacaciones")
+    elif antiguedad >= "7":
+        print(nombre + " tiene 22 días de vacaciones")
+elif clave_departamento == "3":
+    if antiguedad == "1":
+        print(nombre + " tiene 10 días de vacaciones")
+    elif "2" <= antiguedad <= "6":
+        print(nombre + " tiene 20 días de vacaciones")
+    elif antiguedad >= "7":
+        print(nombre + " tiene 30 días de vacaciones")
+    else:
+        print("No es válido")
+else:
+    print("No es válido")
