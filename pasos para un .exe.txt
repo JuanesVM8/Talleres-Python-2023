@@ -1,0 +1,18 @@
+Paso 1: Instalar Python
+Paso 2: ir a variables del entorno y agregar Python X.X al PATH" durante la instalación para que puedas acceder a Python desde la línea de comandos.
+Paso 3: Instalar PyInstaller
+Para instalar PyInstaller, abre tu terminal o línea de comandos y ejecuta el siguiente comando:
+pip install pyinstaller
+Paso 4:rear tu script de Python
+Escribe tu script de Python o utiliza uno que ya hayas creado. Asegúrate de que tu script no dependa de rutas de archivos absolutas, ya que PyInstaller puede cambiar la ubicación del archivo ejecutable.
+Paso 5:Paso 4: Crear un archivo ejecutable con PyInstaller
+Una vez que hayas creado tu script, ve a la terminal o línea de comandos y navega hasta la ubicación de tu script o cambia el directorio de trabajo a esa ubicación.
+#recomiendo guardar los script de python en la misma carpeta del pyinstaller para mas practicidad.
+Luego, ejecutar el siguiente comando para crear un archivo ejecutable (.exe) a partir de tu script:
+pyinstaller --onefile tu_script.py
+#a esto se le puede agragar --noconsole antes del nombre del script para que no muestre la consola al lanzar el ejecutable.
+Reemplaza tu_script.py con el nombre de tu script Python.
+PyInstaller generará una carpeta llamada dist en el mismo directorio que contiene tu archivo ejecutable.
+Paso 6: Ejecutar el archivo ejecutable
+Una vez que PyInstaller haya terminado de crear el archivo ejecutable, puedes encontrarlo en la carpeta dist. Puedes ejecutar el archivo ejecutable como cualquier otro programa en tu sistema.
+#no es necesario cargar el codigo o script para ejecutar el .exe
