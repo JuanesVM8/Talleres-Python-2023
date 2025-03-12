@@ -3,7 +3,7 @@ Paso 2: ir a variables del entorno y agregar Python X.X al PATH" durante la inst
 Paso 3: Instalar PyInstaller
 Para instalar PyInstaller, abre tu terminal o línea de comandos y ejecuta el siguiente comando:
 pip install pyinstaller
-Paso 4:rear tu script de Python
+Paso 4:crear tu script de Python
 Escribe tu script de Python o utiliza uno que ya hayas creado. Asegúrate de que tu script no dependa de rutas de archivos absolutas, ya que PyInstaller puede cambiar la ubicación del archivo ejecutable.
 Paso 5:Paso 4: Crear un archivo ejecutable con PyInstaller
 Una vez que hayas creado tu script, ve a la terminal o línea de comandos y navega hasta la ubicación de tu script o cambia el directorio de trabajo a esa ubicación.
